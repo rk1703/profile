@@ -107,7 +107,7 @@ export const projects: Project[] = [
       { name: "Recharts", color: "text-[#fbbf24]" },
       { name: "Zustand", color: "text-[#a78bfa]" }
     ],
-    image: "/co2_dashboard_mockup.png",
+    image: "/projects/co2_dashboard_mockup.png",
     website_link: "",
     source_code_link: "https://github.com/rk1703/co2_monitor"
   },
@@ -120,7 +120,7 @@ export const projects: Project[] = [
       { name: "Firebase", color: "text-[#f43f5e]" },
       { name: "Genkit", color: "text-[#06b6d4]" }
     ],
-    image: "/spendwise_mockup.png",
+    image: "/projects/spendwise_mockup.png",
     website_link: "https://spendwise.rkwolrd.in",
     source_code_link: "https://github.com/rk1703/spendwise"
   },
@@ -132,7 +132,7 @@ export const projects: Project[] = [
       { name: "Supabase", color: "text-[#06b6d4]" },
       { name: "Prisma", color: "text-[#a78bfa]" }
     ],
-    image: "/instam.png", // using existing asset
+    image: "/projects/instam.png", // using existing asset
     website_link: "https://instamemo.rkwolrd.in",
     source_code_link: "https://github.com/rk1703/InstaMemo"
   },
@@ -144,7 +144,7 @@ export const projects: Project[] = [
       { name: "Azure Cosmos DB", color: "text-[#3b82f6]" },
       { name: "OpenAI API", color: "text-[#f43f5e]" }
     ],
-    image: "/globalspk.png", // using existing asset
+    image: "/projects/globalspk.png", // using existing asset
     website_link: "https://globalspeak.rkwolrd.in",
     source_code_link: "https://github.com/rk1703/GlobalSpeak"
   }

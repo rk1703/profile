@@ -1,50 +1,97 @@
-<h1 align="center" id="title">MY Portfolio</h1>
+# 🚀 Viresens Portfolio
 
-<p align="center"><img src="https://socialify.git.ci/rk1703/portfolio/image?description=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
+A **premium**, **dynamic**, and **responsive** personal portfolio showcasing the work of **Ravikant Baghel** – Assistant Manager of Digital Transformation at JSW Steel and Founder of Viresens Sustainability Consultancy.
 
-<h2>🚀 Demo</h2>
+---
 
-[https://rkworld.codes](https://rkworld.codes)
+## ✨ Overview
 
-<h2>Project Screenshots:</h2>
+The portfolio is built with **Next.js 15**, **TypeScript**, **Tailwind CSS**, and **React Three Fiber** for interactive 3‑D visual effects. It features:
+- A glass‑morphism UI with vibrant color accents.
+- Animated cursor glow and smooth scroll interactions.
+- Sections for **About**, **Experience**, **Projects**, **Skills**, **Testimonials**, and **Contact**.
+- Real‑time data visualizations (e.g., CO₂ dashboard) powered by **Firebase** and **Google GenAI**.
 
-<img src="https://i.postimg.cc/C5dNq3Yn/Screenshot-2024-09-05-223821.png" alt="project-screenshot">
+---
 
-  
-  
-<h2>🧐 Features</h2>
+## 🛠️ Tech Stack
 
-Here're some of the project's best features:
+| Category | Technologies |
+|---|---|
+| **Framework** | Next.js 15, React 18, TypeScript |
+| **Styling** | Tailwind CSS, Glass‑Panel UI, Custom gradients |
+| **3D / Animation** | React‑Three‑Fiber, Drei, Framer Motion |
+| **Backend / Services** | Firebase, Supabase, Google GenAI SDK (Gemini), Genkit |
+| **Deployment** | Vercel (or any Node‑compatible host) |
+| **Version Control** | Git (remote configurable) |
+| **Additional Skills** | GraphQL, Kubernetes, AWS, Azure, C, C++, Express, Figma, React Native |
 
-*   Responsive
-*   Cool Transitions
+---
 
-<h2>🛠️ Installation Steps:</h2>
+## 🌟 Features
 
-<p>1. Clone the repository</p>
+- **Dynamic Skills Grid** – auto‑generated from `constants/technologies` with hover effects.
+- **Experience Cards** – show company logo, role, timeline, and key achievements.
+- **Projects Showcase** – live links, source code, tech tags, and rich screenshots.
+- **Testimonials** – user‑provided images and quotes displayed inside animated glass panels.
+- **Responsive Design** – mobile‑first layout with smooth breakpoints.
+- **SEO Optimized** – proper `<title>`, meta description, Open Graph tags, and semantic HTML.
 
-``
-git clone https://github.com/rk1703/portfolio.git
-``
+---
 
-<p>2. Run the development server:</p>
+## 📦 Installation
 
-``
-npm run dev
-``
+```bash
+# Clone the repo (replace with your remote)
+git clone <YOUR_REPOSITORY_URL>
+cd rkworld
 
-<p>3. Open http://localhost:3000 with your browser to see the result.</p>
+# Install dependencies (uses npm; yarn works as well)
+npm install
 
-  
-  
-<h2>💻 Built with</h2>
+# Run the development server
+npm run dev   # http://localhost:3000
+```
 
-Technologies used in the project:
+> **Note**: The project requires Node >= 20.
 
-*   Next.js
-*   JavaScript
-*   Tailwind CSS
-*   Framer Motion
-*   Email Js
+---
 
-<h2 align="center">Made with by💖RK</h2>
+## 🏃‍♂️ Usage
+
+- Navigate through sections via the sticky **Navbar**.
+- Hover over skill icons to see subtle glow animations.
+- Explore the **Projects** grid; click a card to view details or source code.
+- Submit the **Contact** form – powered by Firebase Functions (configurable).
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository.
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature/awesome-feature
+   ```
+3. Make your changes, ensuring code follows the existing linting and formatting rules.
+4. Run tests (if any) and verify the build passes.
+5. Open a Pull Request with a clear description of the changes.
+
+All contributions welcome – especially UI/UX improvements, new tech‑stack integrations, or bug fixes.
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+---
+
+## 📞 Contact
+
+- **Ravikant Baghel** – [GitHub](https://github.com/rk1703) | [LinkedIn](https://www.linkedin.com/in/ravikant-baghel)
+- **Viresens** – <https://viresens.rkworld.codes>
+
+---
+
+*Built with love, sustainability, and cutting‑edge web tech.*
