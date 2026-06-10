@@ -5,6 +5,7 @@ import React, { useState, useEffect, useRef } from "react";
 interface LogLine {
   text: string;
   type: "input" | "output" | "system" | "success";
+  name?: string;
 }
 
 export default function TerminalConsole() {
