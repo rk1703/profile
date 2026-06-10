@@ -5,6 +5,6 @@ export default function robots() {
         allow: '/',
         disallow: '/private/',
       },
-      sitemap: 'https://rkworld.codes/sitemap.xml',
+      sitemap: 'https://rkwolrd.in/sitemap.xml',
     }
   }

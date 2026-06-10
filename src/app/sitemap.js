@@ -2,7 +2,7 @@
 export default function sitemap() {
   return [
     {
-      url: 'https://rkworld.codes',
+      url: 'https://rkwolrd.in',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 1,
