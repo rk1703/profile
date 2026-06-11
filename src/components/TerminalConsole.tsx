@@ -5,7 +5,6 @@ import React, { useState, useEffect, useRef } from "react";
 interface LogLine {
   text: string;
   type: "input" | "output" | "system" | "success";
-  name?: string;
 }
 
 export default function TerminalConsole() {
@@ -56,7 +55,7 @@ export default function TerminalConsole() {
           { text: "Technical Skills Matrix:", type: "success" },
           { text: "  Languages  : TypeScript, JavaScript, Python, C++", type: "output" },
           { text: "  Frameworks : Next.js, React, Node.js, Express", type: "output" },
-          { name: "Databases", text: "  Databases  : SQL Server, Supabase, Firebase, Cosmos DB", type: "output" },
+          { text: "  Databases  : SQL Server, Supabase, Firebase, Cosmos DB", type: "output" },
           { text: "  Concepts   : Decarbonization APIs, Real-time telemetry, ESG", type: "output" },
         ];
         break;

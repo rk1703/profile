@@ -9,7 +9,7 @@ import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
-import Testimonials from "../components/Testimonials";
+import Testimonials from "@/components/Testimonials";
 
 export default function Dashboard() {
   return (
