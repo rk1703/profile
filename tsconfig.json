@@ -8,6 +8,7 @@
       "es2022"
     ],
     "moduleResolution": "node",
+    "ignoreDeprecations": "6.0",
 
     "noEmit": true,
     "allowJs": true,
