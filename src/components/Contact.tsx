@@ -2,7 +2,6 @@
 
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-import EarthCanvas from "./canvas/Earth";
 
 export default function Contact() {
   const formRef = useRef<HTMLFormElement>(null);
@@ -61,7 +60,7 @@ export default function Contact() {
   return (
     <section className="relative w-full py-20 bg-grid-pattern" id="contact">
       <div className="max-w-7xl mx-auto px-6 sm:px-16 relative z-10">
-        
+
         {/* Section Header */}
         <div className="space-y-4 mb-12 text-center lg:text-left">
           <p className="text-sm font-semibold tracking-widest text-virescent-mint uppercase">
@@ -137,7 +136,7 @@ export default function Contact() {
           {/* 3D Model Side */}
           <div className="lg:col-span-5 h-[350px] lg:h-auto rounded-2xl overflow-hidden glass-panel border border-virescent-green/10 relative flex items-center justify-center min-h-[350px]">
             <div className="absolute inset-0 z-0">
-              <EarthCanvas />
+              HIIIII
             </div>
             {/* Soft Overlay Info */}
             <div className="absolute bottom-4 left-4 z-10 pointer-events-none bg-black-200/60 backdrop-blur-sm p-3 rounded-lg border border-virescent-green/10">

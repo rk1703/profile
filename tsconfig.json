@@ -8,11 +8,11 @@
       "es2022"
     ],
     "moduleResolution": "node",
-    "ignoreDeprecations": "6.0",
-    "noEmit": false,
+
+    "noEmit": true,
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,
+    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
     "esModuleInterop": true,
